@@ -1,14 +1,17 @@
 {
-    "name": "Project2",
+    "name": "project2",
     "version": "1.0.0",
-    "description": "Your project description",
-    "main": "index.js", 
+    "description": "project02",
+    "main": "index.js",
     "scripts": {
-      "start": "node index.js", 
+      "start": "node index.js",
+      "build": "webpack --config webpack.config.js", 
+      "build-css": "your-css-build-command", 
+      "build-js": "your-js-build-command", 
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Your Name",
-    "license": "MIT", 
+    "author": "nachanmi",
+    "license": "MIT",
     "dependencies": {
     }
   }
